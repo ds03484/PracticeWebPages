@@ -1,0 +1,128 @@
+/* css for the sections of the page*/
+#VideoGame{
+    display: none;
+}
+#Boxing{
+    display: none;
+}
+#PracticeProgramming{
+    display: none;
+}
+
+/*css for certain elements */
+p{
+    padding: 10px;
+    color: floralwhite;
+    font-size: 18px;
+    text-indent: 45px;
+}
+h3{
+    font-weight: bold;
+    font-size: 28px;
+    color: floralwhite;
+    text-align: left;
+    text-indent: 10px;
+}
+h2{
+    font-weight: bold;
+    font-size: 36px;
+    color: floralwhite;
+    text-align: center;
+}
+h1{
+    font-size: 44px;
+    color: floralwhite;
+    text-align: left;
+}
+body{
+    background-color: mediumslateblue;
+}
+ol li {
+    padding: 5px;
+    color: floralwhite;
+    font-size: 18px;
+}
+
+/*css for hobby links*/
+.links{
+    margin: 30px;
+    padding: 10px;
+}
+.links li{
+    float: left;
+    position: relative;
+    list-style-type: none;
+}
+.links a{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}
+a:link {
+    color: #B2FF99;
+    text-decoration: underline;
+}
+a:hover {
+    color: #FF00FF;
+}
+
+/*css for side bar section of webpage*/
+#aside{
+    position: fixed;
+    float: left;
+    width: 15%;
+    border-right-style: ridge;
+    border-left-style: ridge;
+    border-top-style: inset;
+    border-bottom-style: outset;
+    border-color: royalblue;
+    background-color: royalblue;
+    outline-color: darkviolet;
+    height: 80%;
+    padding-bottom: 30px;
+}
+#aside li{
+    padding: 5px;
+    list-style-type: none;
+}
+
+/*css for header*/
+#header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-left-style: groove;
+    border-right-style: groove;
+    border-top-style: inset;
+    border-bottom-style: outset;
+    border-color: royalblue;
+    background-color: royalblue;
+    padding-bottom: 30px;
+    outline-color: darkviolet;
+}
+
+/*css for Main content*/
+#Main_Content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-right-style: ridge;
+    border-left-style: ridge;
+    border-top-style: inset;
+    border-bottom-style: outset;
+    border-color: royalblue;
+    background-color: royalblue;
+    outline-color: darkviolet;
+    height: 80%;
+    overflow: hidden;
+}
+
+/*css for Footer*/
+#Footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: inline;
+    position: absolute;
+    bottom: 0;
+}

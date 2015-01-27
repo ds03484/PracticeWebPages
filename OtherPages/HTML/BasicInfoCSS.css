@@ -1,0 +1,108 @@
+/*by defualt I had the sections hidden when page loads*/
+#intro{
+    display: none;
+}
+#college_achievements{
+    display: none;
+}
+#professional_accomplishments{
+    display: none;
+}
+#future_goals{
+    display: none;
+}
+
+/*the section links will be set up as links at the top of page(header section)*/
+.tab{
+    margin: 30px;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    list-style-type: none;
+}
+.tab li{
+    float: left;
+    position: relative;
+    display: block;
+}
+.tab a{
+    position: relative;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:link {
+    color: #B2FF99;
+    text-decoration: underline;
+}
+a:hover {
+    color: #FF00FF;
+}
+
+/*basic styling for header section*/
+#header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-left-style: groove;
+    border-right-style: groove;
+    border-top-style: inset;
+    border-bottom-style: outset;
+    border-color: royalblue;
+    background-color: royalblue;
+    padding-bottom: 30px;
+    outline-color: darkviolet;
+}
+/*style the main content containing the sections*/
+#main_content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-right-style: ridge;
+    border-left-style: ridge;
+    border-top-style: inset;
+    border-bottom-style: outset;
+    border-color: royalblue;
+    background-color: royalblue;
+    outline-color: darkviolet;
+    height: 80%;
+}
+
+/*styling for certain elements*/
+p{
+    padding: 5px;
+    color: floralwhite;
+    font-size: 18px;
+}
+h1{
+    font-size: 44px;
+    color: floralwhite;
+    text-align: left;
+}
+h2{
+    font-size: 36px;
+    color: floralwhite;
+    text-align: center;
+}
+h3{
+    font-size: 28px;
+    color: floralwhite;
+    text-align: center;
+}
+#Hobbies{
+    float: right;
+    padding: 5px;
+}
+#GoHome{
+    float: left;
+    padding: 5px;
+}
+body{
+    background-color: mediumslateblue;
+}
+ol li{
+    padding: 5px;
+    color: floralwhite;
+    font-size: 18px;
+}

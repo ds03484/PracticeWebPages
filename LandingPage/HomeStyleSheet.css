@@ -1,0 +1,73 @@
+/* css for the home page*/
+body{
+    background-color: mediumslateblue;
+}
+h1{
+    font-weight: bold;
+    font-size: 44px;
+    color: floralwhite;
+    text-align: left;
+}
+h2{
+    color: floralwhite;
+    text-align: center;
+    font-size: 36px;
+}
+h3{
+    font-size: 28px;
+    color: floralwhite;
+    text-align: center;
+}
+p{
+    padding: 10px;
+    color: floralwhite;
+    font-size: 18px;
+}
+ol{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+li{
+    color: floralwhite;
+    font-size: 18px;
+    padding: 5px;
+}
+#BasicInfo{
+   float: right;
+   padding: 10px;
+}
+#header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-left-style: groove;
+    border-right-style: groove;
+    border-top-style: inset;
+    border-bottom-style: outset;
+    border-color: royalblue;
+    background-color: royalblue;
+    padding-bottom: 20px;
+    outline-color: darkviolet;
+}
+#main_content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-right-style: ridge;
+    border-left-style: ridge;
+    border-top-style: inset;
+    border-bottom-style: outset;
+    border-color: royalblue;
+    background-color: royalblue;
+    outline-color: darkviolet;
+    height: 80%;
+    overflow: hidden;
+}
+#footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: inline;
+    position: absolute;
+    bottom: 0;
+}
