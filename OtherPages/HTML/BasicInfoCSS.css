@@ -54,6 +54,7 @@ a:hover {
     padding-bottom: 30px;
     outline-color: darkviolet;
 }
+
 /*style the main content containing the sections*/
 #main_content{
     margin-left: auto;
@@ -67,6 +68,26 @@ a:hover {
     background-color: royalblue;
     outline-color: darkviolet;
     height: 80%;
+}
+
+/*css for side bar section of webpage*/
+#aside{
+    position: fixed;
+    float: left;
+    width: 15%;
+    border-right-style: ridge;
+    border-left-style: ridge;
+    border-top-style: inset;
+    border-bottom-style: outset;
+    border-color: royalblue;
+    background-color: royalblue;
+    outline-color: darkviolet;
+    height: 70%;
+    padding-bottom: 30px;
+}
+#aside li{
+    padding: 5px;
+    list-style-type: none;
 }
 
 /*styling for certain elements*/
